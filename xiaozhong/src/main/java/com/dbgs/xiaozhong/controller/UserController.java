@@ -9,5 +9,6 @@ public class UserController {
     @RequestMapping("/get")
     public String gett(){
         System.out.println("你好啊！");
+        return "正山小种";
     }
 }
