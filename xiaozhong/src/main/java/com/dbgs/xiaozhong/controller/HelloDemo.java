@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloDemo {
     @RequestMapping("/ni")
     public String tt(){
-        return "ni hao";
+        return "ni hao , 汪仔";
     }
 }
